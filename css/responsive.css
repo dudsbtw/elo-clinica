@@ -1,0 +1,115 @@
+/* ================================================
+   CLÍNICA ELO — responsive.css
+   Breakpoints: 1024px · 768px · 480px
+   ================================================ */
+
+
+/* ─── TABLET (≤ 1024px) ───────────────────────── */
+
+@media (max-width: 1024px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: calc(var(--gap-md) + 72px);
+    text-align: center;
+  }
+
+  .hero__content { align-items: center; }
+  .hero__content > p { max-width: 100%; }
+  .hero__nums { justify-content: center; }
+
+  .hero__visual { display: none; }
+
+  .especialidades__grid { grid-template-columns: 1fr 1fr; }
+  .espec--destaque { grid-column: span 2; }
+
+  .sobre__inner { grid-template-columns: 1fr; }
+  .sobre__img img { height: 360px; }
+  .sobre__card { bottom: -1rem; right: 1rem; }
+
+  .sobre__nums { grid-template-columns: repeat(4, 1fr); }
+
+  .equipe__grid { grid-template-columns: repeat(3, 1fr); }
+
+  .depoimentos__grid { grid-template-columns: 1fr 1fr; }
+
+  .agendamento__inner { grid-template-columns: 1fr; }
+  .agendamento__form { max-width: 600px; }
+
+  .footer__inner { grid-template-columns: 1fr 1fr; }
+  .footer__brand { grid-column: span 2; }
+}
+
+
+/* ─── MOBILE (≤ 768px) ────────────────────────── */
+
+@media (max-width: 768px) {
+
+  /* Nav drawer */
+  .nav__links {
+    position: fixed;
+    inset: 0 auto 0 auto;
+    right: -100%;
+    width: min(80vw, 300px);
+    background: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem 1.75rem;
+    gap: 1.75rem;
+    transition: right 0.32s ease;
+    box-shadow: -4px 0 24px rgba(0,0,0,0.1);
+    border-left: 1px solid var(--borda);
+  }
+
+  .nav__links.open { right: 0; }
+  .nav__links a { font-size: 1rem; color: var(--texto); }
+  .nav__toggle { display: flex; }
+
+  .nav__overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 99;
+  }
+  .nav__overlay.visible { display: block; }
+
+  /* Hero */
+  .hero__ctas { flex-direction: column; align-items: center; }
+  .hero__ctas .btn { width: 100%; text-align: center; }
+  .hero__nums { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+
+  /* Especialidades */
+  .especialidades__grid { grid-template-columns: 1fr; }
+  .espec--destaque { grid-column: span 1; }
+
+  /* Sobre */
+  .sobre__nums { grid-template-columns: repeat(2, 1fr); }
+
+  /* Equipe */
+  .equipe__grid { grid-template-columns: 1fr; gap: 1rem; }
+  .profissional__foto img { height: 240px; }
+
+  /* Depoimentos */
+  .depoimentos__grid { grid-template-columns: 1fr; }
+
+  /* Form */
+  .form__row { grid-template-columns: 1fr; }
+  .agendamento__form { padding: 1.75rem; }
+
+  /* Footer */
+  .footer__inner { grid-template-columns: 1fr; }
+  .footer__brand { grid-column: span 1; }
+}
+
+
+/* ─── PEQUENO (≤ 480px) ───────────────────────── */
+
+@media (max-width: 480px) {
+
+  .hero__nums { gap: 1rem; }
+  .sobre__nums { grid-template-columns: repeat(2, 1fr); }
+  .whatsapp-float { bottom: 1.25rem; right: 1.25rem; width: 50px; height: 50px; }
+}

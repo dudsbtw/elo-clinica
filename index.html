@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica Elo — Saúde integrada em Campinas. Odontologia, psicologia e fisioterapia com cuidado humano e excelência clínica.">
+  <title>Clínica Elo | Saúde Integrada — Campinas</title>
+
+  <meta property="og:title" content="Clínica Elo — Saúde Integrada">
+  <meta property="og:description" content="Odontologia, psicologia e fisioterapia em Campinas. Cuidado que conecta.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ═══ NAV ════════════════════════════════════ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect x="11" y="2" width="6" height="24" rx="3" fill="currentColor"/>
+          <rect x="2" y="11" width="24" height="6" rx="3" fill="currentColor"/>
+        </svg>
+        <span class="nav__logo-nome">Clínica <strong>Elo</strong></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Menu principal">
+        <a href="#especialidades">Especialidades</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#agendamento" class="nav__cta">Agendar Consulta</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="tag">Saúde Integrada em Campinas</span>
+      <h1>Cuidado que <em>conecta</em> você ao melhor de si</h1>
+      <p>Odontologia, psicologia e fisioterapia sob o mesmo teto — com atenção humana, tecnologia de ponta e um time dedicado ao seu bem-estar.</p>
+      <div class="hero__ctas">
+        <a href="#agendamento" class="btn btn--azul">Agendar Consulta</a>
+        <a href="#especialidades" class="btn btn--ghost">Ver Especialidades</a>
+      </div>
+      <div class="hero__nums">
+        <div class="hero__num">
+          <strong>+4.000</strong>
+          <span>pacientes atendidos</span>
+        </div>
+        <div class="hero__num">
+          <strong>12</strong>
+          <span>anos de atuação</span>
+        </div>
+        <div class="hero__num">
+          <strong>98%</strong>
+          <span>satisfação</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__shape"></div>
+      <div class="hero__img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
+          alt="Profissional de saúde da Clínica Elo"
+          loading="eager"
+        >
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ESPECIALIDADES ══════════════════════════ -->
+  <section class="especialidades" id="especialidades">
+    <div class="especialidades__inner">
+      <div class="section-header reveal">
+        <span class="tag">O que oferecemos</span>
+        <h2>Nossas Especialidades</h2>
+        <p>Três áreas essenciais para cuidar de você de forma completa e integrada.</p>
+      </div>
+      <div class="especialidades__grid">
+
+        <article class="espec reveal">
+          <div class="espec__icon espec__icon--azul">
+            <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
+              <path d="M20 4C14 4 9 8.5 9 14c0 3.5 1.8 6.6 4.5 8.5L12 34h16l-1.5-11.5C29.2 20.6 31 17.5 31 14c0-5.5-5-10-11-10z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M16 34l1 3h6l1-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Odontologia</h3>
+          <p>Prevenção, estética e reabilitação oral com tecnologia digital e procedimentos minimamente invasivos.</p>
+          <ul class="espec__lista">
+            <li>Clínico Geral</li>
+            <li>Ortodontia</li>
+            <li>Implantodontia</li>
+            <li>Clareamento</li>
+          </ul>
+        </article>
+
+        <article class="espec espec--destaque reveal">
+          <div class="espec__icon espec__icon--branco">
+            <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
+              <circle cx="20" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 36c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 20v4M17 30h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="espec__badge">Mais procurado</span>
+          <h3>Psicologia</h3>
+          <p>Acolhimento e escuta ativa para adultos, crianças e adolescentes. Atendimento presencial e online.</p>
+          <ul class="espec__lista">
+            <li>Terapia individual</li>
+            <li>Terapia de casal</li>
+            <li>Psicologia infantil</li>
+            <li>Avaliação psicológica</li>
+          </ul>
+        </article>
+
+        <article class="espec reveal">
+          <div class="espec__icon espec__icon--verde">
+            <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
+              <path d="M10 30c0-8 4-14 10-16M30 30c0-8-4-14-10-16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M14 20h12M20 14v12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Fisioterapia</h3>
+          <p>Reabilitação funcional, alívio de dores e prevenção de lesões com abordagem individualizada.</p>
+          <ul class="espec__lista">
+            <li>Fisio ortopédica</li>
+            <li>RPG</li>
+            <li>Pilates clínico</li>
+            <li>Pós-operatório</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SOBRE ════════════════════════════════════ -->
+  <section class="sobre" id="sobre">
+    <div class="sobre__inner">
+      <div class="sobre__img reveal">
+        <img
+          src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=800&q=80"
+          alt="Espaço moderno da Clínica Elo"
+          loading="lazy"
+        >
+        <div class="sobre__card">
+          <strong>Est. 2013</strong>
+          <span>Campinas, SP</span>
+        </div>
+      </div>
+      <div class="sobre__content reveal">
+        <span class="tag">Nossa missão</span>
+        <h2>Saúde com olhar humano</h2>
+        <p>A Clínica Elo nasceu da crença de que cuidar da saúde vai além de tratar sintomas. É sobre escutar, entender e acompanhar cada pessoa em sua jornada de bem-estar.</p>
+        <p>Reunimos especialistas comprometidos com atendimento ético, humanizado e baseado em evidências — em um espaço projetado para que você se sinta acolhido desde o momento em que entra.</p>
+        <div class="sobre__nums">
+          <div class="sobre__num">
+            <strong>+4.000</strong>
+            <span>Pacientes</span>
+          </div>
+          <div class="sobre__num">
+            <strong>8</strong>
+            <span>Especialistas</span>
+          </div>
+          <div class="sobre__num">
+            <strong>12</strong>
+            <span>Anos</span>
+          </div>
+          <div class="sobre__num">
+            <strong>98%</strong>
+            <span>Satisfação</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EQUIPE ══════════════════════════════════ -->
+  <section class="equipe" id="equipe">
+    <div class="equipe__inner">
+      <div class="section-header reveal">
+        <span class="tag">Quem cuida de você</span>
+        <h2>Nossa Equipe</h2>
+        <p>Profissionais com formação sólida, especializações e, acima de tudo, vocação para cuidar.</p>
+      </div>
+      <div class="equipe__grid">
+
+        <article class="profissional reveal">
+          <div class="profissional__foto">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=75" alt="Dra. Ana Beatriz Costa, odontologista" loading="lazy">
+          </div>
+          <div class="profissional__info">
+            <h3>Dra. Ana Beatriz Costa</h3>
+            <span class="profissional__cargo">Odontologista · CRO 45.230</span>
+            <p>Especialista em implantodontia e prótese dentária com 10 anos de atuação clínica.</p>
+          </div>
+        </article>
+
+        <article class="profissional reveal">
+          <div class="profissional__foto">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=75" alt="Dr. Marcos Oliveira, psicólogo" loading="lazy">
+          </div>
+          <div class="profissional__info">
+            <h3>Dr. Marcos Oliveira</h3>
+            <span class="profissional__cargo">Psicólogo · CRP 06/98432</span>
+            <p>TCC e psicanálise para adultos e adolescentes. Pós-graduado em saúde mental.</p>
+          </div>
+        </article>
+
+        <article class="profissional reveal">
+          <div class="profissional__foto">
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=500&q=75" alt="Dra. Juliana Ferreira, fisioterapeuta" loading="lazy">
+          </div>
+          <div class="profissional__info">
+            <h3>Dra. Juliana Ferreira</h3>
+            <span class="profissional__cargo">Fisioterapeuta · CREFITO 3/123456</span>
+            <p>Especialista em RPG e reabilitação pós-cirúrgica. Instrutora certificada de Pilates.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DEPOIMENTOS ══════════════════════════════ -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="depoimentos__inner">
+      <div class="section-header reveal">
+        <span class="tag">O que dizem sobre nós</span>
+        <h2>Depoimentos</h2>
+      </div>
+      <div class="depoimentos__grid">
+
+        <blockquote class="depoimento reveal">
+          <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+          <p>"A Dra. Ana é incrível. Tinha medo de dentista há anos e ela me deixou completamente à vontade. O tratamento foi rápido e sem dor. Recomendo demais!"</p>
+          <footer>
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=80&q=70" alt="Fernanda M." loading="lazy">
+            <div>
+              <strong>Fernanda M.</strong>
+              <span>Paciente de Odontologia</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="depoimento reveal">
+          <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+          <p>"O Dr. Marcos foi fundamental na minha recuperação. As sessões me ajudaram a entender padrões que eu nem percebia. Ambiente acolhedor e profissional."</p>
+          <footer>
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=70" alt="Ricardo T." loading="lazy">
+            <div>
+              <strong>Ricardo T.</strong>
+              <span>Paciente de Psicologia</span>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="depoimento reveal">
+          <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+          <p>"Fiz fisioterapia depois de uma cirurgia no joelho com a Dra. Juliana. Em dois meses voltei a correr. Tratamento personalizado e muito atencioso."</p>
+          <footer>
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=80&q=70" alt="Camila R." loading="lazy">
+            <div>
+              <strong>Camila R.</strong>
+              <span>Paciente de Fisioterapia</span>
+            </div>
+          </footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ══════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq__inner">
+      <div class="section-header reveal">
+        <span class="tag">Dúvidas frequentes</span>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq__lista" id="faqLista">
+
+        <div class="faq__item reveal">
+          <button class="faq__pergunta" aria-expanded="false">
+            <span>A clínica atende por convênio?</span>
+            <svg class="faq__icone" viewBox="0 0 24 24" fill="none" width="20" height="20">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq__resposta">
+            <p>Atendemos alguns convênios selecionados e também particular. Entre em contato para verificar se o seu plano é aceito e quais procedimentos estão cobertos.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__pergunta" aria-expanded="false">
+            <span>Como funciona o agendamento?</span>
+            <svg class="faq__icone" viewBox="0 0 24 24" fill="none" width="20" height="20">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq__resposta">
+            <p>Você pode agendar pelo formulário nesta página, pelo telefone ou pessoalmente na recepção. Tentamos encaixar sua consulta em até 48 horas após o contato.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__pergunta" aria-expanded="false">
+            <span>O atendimento psicológico é presencial ou online?</span>
+            <svg class="faq__icone" viewBox="0 0 24 24" fill="none" width="20" height="20">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq__resposta">
+            <p>Oferecemos as duas modalidades. O atendimento online é realizado por plataforma segura e tem a mesma eficácia clínica comprovada. O paciente escolhe o que funciona melhor para a sua rotina.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__pergunta" aria-expanded="false">
+            <span>Quanto tempo dura uma sessão de fisioterapia?</span>
+            <svg class="faq__icone" viewBox="0 0 24 24" fill="none" width="20" height="20">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq__resposta">
+            <p>Em geral, as sessões têm duração de 50 minutos. A frequência e o número de sessões são definidos pelo fisioterapeuta após a avaliação inicial, de acordo com o quadro de cada paciente.</p>
+          </div>
+        </div>
+
+        <div class="faq__item reveal">
+          <button class="faq__pergunta" aria-expanded="false">
+            <span>Tem estacionamento no local?</span>
+            <svg class="faq__icone" viewBox="0 0 24 24" fill="none" width="20" height="20">
+              <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+          <div class="faq__resposta">
+            <p>Sim, contamos com estacionamento próprio gratuito para pacientes. A entrada é pelo acesso lateral do prédio.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ AGENDAMENTO ══════════════════════════════ -->
+  <section class="agendamento" id="agendamento">
+    <div class="agendamento__inner">
+      <div class="agendamento__info reveal">
+        <span class="tag tag--light">Marque sua consulta</span>
+        <h2>Agende agora</h2>
+        <div class="agendamento__dados">
+          <div class="dado">
+            <div class="dado__icone">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Endereço</strong>
+              <p>Av. Brasil, 1.200 — sala 304<br>Jardim Guanabara, Campinas — SP</p>
+            </div>
+          </div>
+          <div class="dado">
+            <div class="dado__icone">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Horário</strong>
+              <p>Segunda a Sexta: 8h às 20h<br>Sábado: 8h às 13h</p>
+            </div>
+          </div>
+          <div class="dado">
+            <div class="dado__icone">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20">
+                <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Telefone</strong>
+              <p>(19) 3333-4444<br>contato@clinicaelo.com.br</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn--verde ilustrativo-btn" data-tooltip="Empresa fictícia — botão ilustrativo">
+          Falar pelo WhatsApp
+        </button>
+      </div>
+
+      <div class="agendamento__form reveal">
+        <div class="aviso-ilustrativo">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true" style="flex-shrink:0">
+            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+          </svg>
+          Formulário meramente ilustrativo — os dados não são enviados
+        </div>
+        <form id="agendamentoForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            </div>
+            <div class="form__group">
+              <label for="tel">Telefone</label>
+              <input type="tel" id="tel" name="tel" placeholder="(19) 99999-9999">
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com">
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="especialidade">Especialidade</label>
+              <select id="especialidade" name="especialidade">
+                <option value="">Selecione</option>
+                <option>Odontologia</option>
+                <option>Psicologia</option>
+                <option>Fisioterapia</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="data">Data preferida</label>
+              <input type="date" id="data" name="data">
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="obs">Observações</label>
+            <textarea id="obs" name="obs" placeholder="Descreva brevemente o motivo da consulta..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--azul btn--full">Solicitar Agendamento</button>
+          <p class="form__feedback" id="formFeedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ══════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">
+          <svg width="22" height="22" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <rect x="11" y="2" width="6" height="24" rx="3" fill="currentColor"/>
+            <rect x="2" y="11" width="24" height="6" rx="3" fill="currentColor"/>
+          </svg>
+          Clínica <strong>Elo</strong>
+        </a>
+        <p>Saúde integrada com cuidado humano.<br>Campinas, SP — desde 2013.</p>
+        <p class="footer__ficticio">Empresa fictícia criada para fins de portfólio.</p>
+      </div>
+      <div class="footer__col">
+        <strong>Navegação</strong>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#agendamento">Agendar</a>
+      </div>
+      <div class="footer__col">
+        <strong>Redes Sociais</strong>
+        <button class="footer__social-btn ilustrativo-btn" data-tooltip="Empresa fictícia — sem redes sociais">Instagram</button>
+        <button class="footer__social-btn ilustrativo-btn" data-tooltip="Empresa fictícia — sem redes sociais">Facebook</button>
+        <button class="footer__social-btn ilustrativo-btn" data-tooltip="Empresa fictícia — sem WhatsApp real">WhatsApp</button>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <p>© 2025 Clínica Elo · Projeto fictício de portfólio · Desenvolvido por <a href="https://github.com/dudsbtw" target="_blank" rel="noopener">Eduardo Frois</a></p>
+    </div>
+  </footer>
+
+  <!-- ═══ WHATSAPP FLOAT ══════════════════════════ -->
+  <button
+    class="whatsapp-float ilustrativo-btn"
+    data-tooltip="Empresa fictícia — botão ilustrativo"
+    aria-label="WhatsApp ilustrativo"
+  >
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
